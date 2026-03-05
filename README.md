@@ -77,6 +77,7 @@ text
 └── faces/                    # Captured face images (auto-generated)
     ├── roll1_name1.jpg
     └── roll2_name2.jpg
+    
 How It Works
 Face Detection: Uses Haar Cascade Classifier to detect faces in real-time
 
@@ -95,32 +96,7 @@ CAMERA_WIDTH/HEIGHT: Camera resolution
 
 FACE_WIDTH/HEIGHT: Size of saved face images
 
-Troubleshooting
-Camera not working?
 
-Check if camera is connected and not used by another application
 
-Try changing camera index in code (from 0 to 1 if you have multiple cameras)
 
-Recognition not working well?
-
-Ensure good lighting conditions
-
-Adjust threshold slider lower for easier recognition
-
-Re-register face with better lighting/angle
-
-Python not found?
-
-Make sure Python is installed and added to PATH
-
-Use full Python path: C:\Python39\python.exe attendance_system.py
-
-License
-This project is for educational purposes.
-
-Author
-Created as a Python project for practice.
-
-text
 
